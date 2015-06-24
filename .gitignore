@@ -1,0 +1,9 @@
+/dist
+/.sass-cache
+/node_modules
+/*.jpg
+/*.png
+/*.gif
+*.html
+!index.html
+_old
