@@ -1,0 +1,154 @@
+// 
+//  Grid
+//  ---------------------------------
+
+
+// Multiple column layouts
+//---------------------
+
+.two-column,
+.three-column,
+.left-sidebar,
+.right-sidebar {
+	text-align: center;
+	font-size: 0;
+	
+	.column {
+		width: 100%;
+		display: inline-block;
+	}
+	
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.two-column,
+.three-column {
+	
+	.column {
+		vertical-align: top;
+	}
+}
+
+.left-sidebar,
+.right-sidebar {
+	
+	.column {
+		vertical-align: middle;
+	}
+	
+	img {
+		max-width: 80px;
+	}
+}
+
+
+// Two column layout
+//---------------------
+
+.two-column {	
+  
+	.column {
+		max-width: 300px;
+	}
+	
+	img {
+		max-width: 280px;
+	}
+	
+	.text {
+		padding-top: 10px;
+	}
+}
+
+
+// Three column layout
+//---------------------
+
+.three-column {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	.column {
+		max-width: 200px;
+	}
+	
+	img {
+		max-width: 180px;
+	}
+	
+	.text {
+		padding-top: 10px;
+	}
+}
+
+
+//  Left sidebar layout 
+//---------------------
+
+.left-sidebar {
+	
+	.left {
+		max-width: 100px;
+	}
+	
+	.right {
+		max-width: 500px;
+	}
+}
+
+
+//  Right sidebar layout 
+//---------------------
+
+.right-sidebar {
+	
+	.left {
+		max-width: 100px;
+	}
+	
+	.right {
+		max-width: 500px;
+	}
+}
+
+
+// Media Queries
+//---------------------
+
+@media screen and(max-width: 460px) {
+  
+	.two-column {
+  	
+		.column {
+			max-width: 100% !important;
+		}
+		
+		img {
+			max-width: 100% !important;
+		}
+	}
+	
+	.three-column {
+  	
+		.column {
+			max-width: 100% !important;
+		}
+		
+		img {
+			max-width: 50% !important;
+		}
+	}
+}
+@media screen and(min-width: 461px) and(max-width: 620px) {
+  
+	.three-column .column {
+		max-width: 33% !important;
+	}
+	
+	.two-column .column {
+		max-width: 50% !important;
+	}
+}

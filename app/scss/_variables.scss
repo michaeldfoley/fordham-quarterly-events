@@ -1,0 +1,53 @@
+// 
+//  Variables
+//  ---------------------------------
+
+
+// Base colors
+//---------------------
+
+$base-background: #f9f9f9;
+$base-border: darken($base-background, 5%);
+$content-background: #ffffff;
+$text-color: #444444;
+$heading-color: #333333;
+$primary-color: #900028;
+$meta-color: lighten($text-color, 18%);
+$link-color: $primary-color;
+
+
+// Aside colors
+//---------------------
+
+$aside-background: $base-background;
+$aside-color: lighten($text-color, 10%);
+
+
+// Button colors
+//---------------------
+
+$btn-background: $primary-color;
+$btn-color: #ffffff;
+$btn-secondary-background: $aside-background;
+$btn-secondary-color: lighten($text-color, 7%);
+
+
+// Footer colors
+//---------------------
+
+$footer-color: $text-color;
+$footer-nav-background: #5b6f7b;
+$footer-nav-color: #ffffff;
+$footer-nav-link-color: $footer-nav-color;
+
+
+// Fonts
+//---------------------
+
+$base-font: 'Open Sans', Arial, sans-serif;
+$font-weight-base: normal;
+$font-weight-bold: bold;
+$font-size-base: 15px;
+$line-height-base: 1.6;
+$line-height-large: 1.2;
+$line-height-computed: floor($font-size-base * $line-height-base);
