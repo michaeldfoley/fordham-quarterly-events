@@ -1,6 +1,6 @@
 {
-  "name": "fordham-email-base",
-  "description": "Base Template for Fordham University",
+  "name": "email-base",
+  "description": "Base Email Template",
   "version": "0.0.1",
   "authors": [
     "Michael Foley <michaeldfoley@gmail.com>"
@@ -9,7 +9,7 @@
   "repository": [
     {
       "type": "git",
-      "url": "git@github.com:michaeldfoley/fordham-email-base.git"
+      "url": "git@github.com:michaeldfoley/email-base.git"
     }
   ],
   "dependencies": {},
