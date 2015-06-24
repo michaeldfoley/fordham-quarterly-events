@@ -10,10 +10,13 @@ body {
 	background-color: #ffffff;
 }
 
+table, td {
+  font-family: $base-font;
+  color: $text-color;
+}
+
 table {
 	border-spacing: 0;
-	font-family: sans-serif;
-	color: #333333;
 }
 
 td {
