@@ -14,8 +14,7 @@ module.exports = function (grunt) {
             src: 'app',
             email: 'index.html',
             txt: 'index.txt',
-            distDomain: '',
-            devDomain: '',      
+            distDomain: '', 
         		sender: {
           		service: '',
           		user: '',
@@ -23,7 +22,8 @@ module.exports = function (grunt) {
         		},
         		recipients: {
           		name: '',
-          		email: ''
+          		email: '',
+          		subject: ''
         		}
         },
 
@@ -178,6 +178,9 @@ module.exports = function (grunt) {
                         }
                     }
                 },
+                message: {
+                  subject: '<%= paths.recipients.subject  %>'
+                },
                 recipients: [
               		{
                 		name: '<%= paths.recipients.name  %>',
@@ -204,6 +207,12 @@ module.exports = function (grunt) {
                         type: 'input',
                         message: 'Who should we send this to (email)?',
                         default: '<%= paths.recipients.email  %>'
+                    },
+                    {
+                        config: 'paths.recipients.subject',
+                        type: 'input',
+                        message: 'What is the subject?',
+                        default: '<%= paths.recipients.subject  %>'
                     }]
                 }
             }
