@@ -8,9 +8,7 @@
 
 .two-column,
 .three-column,
-.left-sidebar,
-.right-sidebar {
-	text-align: center;
+.sidebar {
 	font-size: 0;
 	
 	.column {
@@ -32,8 +30,7 @@
 	}
 }
 
-.left-sidebar,
-.right-sidebar {
+.sidebar {
 	
 	.column {
 		vertical-align: middle;
@@ -75,6 +72,10 @@
 		max-width: 200px;
 	}
 	
+	.contents {
+  	text-align: center;
+	}
+	
 	img {
 		max-width: 180px;
 	}
@@ -85,31 +86,17 @@
 }
 
 
-//  Left sidebar layout 
+// Sidebar layout 
 //---------------------
 
-.left-sidebar {
+.sidebar {
+	text-align: center;
 	
-	.left {
+	.aside {
 		max-width: 100px;
 	}
 	
-	.right {
-		max-width: 500px;
-	}
-}
-
-
-//  Right sidebar layout 
-//---------------------
-
-.right-sidebar {
-	
-	.left {
-		max-width: 100px;
-	}
-	
-	.right {
+	.main {
 		max-width: 500px;
 	}
 }
@@ -150,5 +137,13 @@
 	
 	.two-column .column {
 		max-width: 50% !important;
+	}
+	
+	.sidebar .main {
+  	max-width: 100% !important;
+  	
+  	.contents {
+    	text-align: center !important;
+  	}
 	}
 }
