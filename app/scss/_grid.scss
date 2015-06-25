@@ -76,7 +76,7 @@
 .sixtyfourty-column {	
   
 	.column-sixty,
-  .column-sixty .inner-paddless img {
+  .column-sixty .inner-padless img {
 		max-width: 360px;
 		
   	img {
@@ -85,7 +85,7 @@
 	}
   
 	.column-fourty,
-	.column-fourty .inner-paddless img {
+	.column-fourty .inner-padless img {
 		max-width: 240px;
 		
 		img {
@@ -169,7 +169,9 @@
 	
 	.sixtyfourty-column {
   	
-  	.inner {
+  	.inner,
+  	.inner-padless,
+  	.inner-padless td {
     	width: 460px !important;
     	max-width: 100% !important;
   	}

@@ -10,8 +10,19 @@
 .three-column,
 .sixtyfourty-column {
 	
+	.logo .inner {
+  	padding: 0;
+  	padding-top: 20px;
+  	
+  	img {
+  		max-width: 165px;
+  	
+    	@media screen and(max-width: $reorder-layout) {
+    		max-width: 165px !important;
+    	}
+  	}
+	}
 	.logo img {
-		max-width: 165px !important;
 	}
 }
 
@@ -19,14 +30,22 @@
 // Tagline
 //---------------------
 
-.header-tagline {
+.header-tagline .inner {
+	padding: 0;
+	padding-top: 15px;
+}
+.header-tagline .contents {
   display: inline-block;
-  padding-top: 12px;
-  font-size:16px;
+  padding-top: 29px;
+  font-size: 16px;
   
   a, & {
     color: $meta-color;
   }
+  	
+	@media screen and(max-width: $reorder-layout) {
+    padding-top: 10px !important;
+	}
 }
 
 
@@ -38,4 +57,6 @@
   font-weight: $font-weight-base;
   line-height: $line-height-base;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }

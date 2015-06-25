@@ -190,22 +190,22 @@ a img {
 
 /* line 78, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty,
-.sixtyfourty-column .column-sixty .inner-paddless img {
+.sixtyfourty-column .column-sixty .inner-padless img {
   max-width: 360px;
 }
 /* line 82, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty img,
-.sixtyfourty-column .column-sixty .inner-paddless img img {
+.sixtyfourty-column .column-sixty .inner-padless img img {
   max-width: 340px;
 }
 /* line 87, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty,
-.sixtyfourty-column .column-fourty .inner-paddless img {
+.sixtyfourty-column .column-fourty .inner-padless img {
   max-width: 240px;
 }
 /* line 91, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty img,
-.sixtyfourty-column .column-fourty .inner-paddless img img {
+.sixtyfourty-column .column-fourty .inner-padless img img {
   max-width: 220px;
 }
 
@@ -278,48 +278,50 @@ a img {
   }
 
   /* line 172, ../scss/_grid.scss */
-  .sixtyfourty-column .inner {
+  .sixtyfourty-column .inner,
+  .sixtyfourty-column .inner-padless,
+  .sixtyfourty-column .inner-padless td {
     width: 460px !important;
     max-width: 100% !important;
   }
-  /* line 177, ../scss/_grid.scss */
+  /* line 179, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty img {
     max-width: 100% !important;
   }
-  /* line 181, ../scss/_grid.scss */
+  /* line 183, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty img {
     max-width: 50% !important;
   }
 }
 @media screen and (min-width: 461px) and (max-width: 620px) {
-  /* line 190, ../scss/_grid.scss */
+  /* line 192, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty {
     max-width: 60% !important;
   }
-  /* line 194, ../scss/_grid.scss */
+  /* line 196, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty {
     max-width: 40% !important;
   }
 
-  /* line 201, ../scss/_grid.scss */
+  /* line 203, ../scss/_grid.scss */
   .three-column .column {
     max-width: 33% !important;
   }
-  /* line 205, ../scss/_grid.scss */
+  /* line 207, ../scss/_grid.scss */
   .three-column .column-2 {
     max-width: 66% !important;
   }
 
-  /* line 210, ../scss/_grid.scss */
+  /* line 212, ../scss/_grid.scss */
   .two-column .column {
     max-width: 50% !important;
   }
 
-  /* line 214, ../scss/_grid.scss */
+  /* line 216, ../scss/_grid.scss */
   .sidebar .main {
     max-width: 100% !important;
   }
-  /* line 217, ../scss/_grid.scss */
+  /* line 219, ../scss/_grid.scss */
   .sidebar .main .contents {
     text-align: center !important;
   }
@@ -443,29 +445,58 @@ small {
 }
 
 /* line 13, ../scss/_header.scss */
-.two-column .logo img,
-.three-column .logo img,
-.sixtyfourty-column .logo img {
-  max-width: 165px !important;
+.two-column .logo .inner,
+.three-column .logo .inner,
+.sixtyfourty-column .logo .inner {
+  padding: 0;
+  padding-top: 20px;
+}
+/* line 17, ../scss/_header.scss */
+.two-column .logo .inner img,
+.three-column .logo .inner img,
+.sixtyfourty-column .logo .inner img {
+  max-width: 165px;
+}
+@media screen and (max-width: 460px) {
+  /* line 17, ../scss/_header.scss */
+  .two-column .logo .inner img,
+  .three-column .logo .inner img,
+  .sixtyfourty-column .logo .inner img {
+    max-width: 165px !important;
+  }
 }
 
-/* line 22, ../scss/_header.scss */
-.header-tagline {
+/* line 33, ../scss/_header.scss */
+.header-tagline .inner {
+  padding: 0;
+  padding-top: 15px;
+}
+
+/* line 37, ../scss/_header.scss */
+.header-tagline .contents {
   display: inline-block;
-  padding-top: 12px;
+  padding-top: 29px;
   font-size: 16px;
 }
-/* line 27, ../scss/_header.scss */
-.header-tagline a, .header-tagline {
+/* line 42, ../scss/_header.scss */
+.header-tagline .contents a, .header-tagline .contents {
   color: #727272;
 }
+@media screen and (max-width: 460px) {
+  /* line 37, ../scss/_header.scss */
+  .header-tagline .contents {
+    padding-top: 10px !important;
+  }
+}
 
-/* line 36, ../scss/_header.scss */
+/* line 55, ../scss/_header.scss */
 .header-description {
   font-size: 15px;
   font-weight: normal;
   line-height: 1.6;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 /* line 6, ../scss/_blocks.scss */
