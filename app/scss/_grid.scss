@@ -8,11 +8,15 @@
 
 .two-column,
 .three-column,
+.sixtyfourty-column,
 .sidebar {
 	font-size: 0;
 	text-align: center;
 	
-	.column {
+	.column,
+	.column-2,
+	.column-sixty,
+	.column-fourty {
 		width: 100%;
 		display: inline-block;
 	}
@@ -24,10 +28,18 @@
 }
 
 .two-column,
-.three-column {
+.three-column,
+.sixtyfourty-column {
 	
-	.column {
+	.column,
+	.column-2,
+	.column-sixty,
+	.column-fourty {
 		vertical-align: top;
+	}
+	
+	.text {
+		padding-top: 10px;
 	}
 }
 
@@ -55,9 +67,28 @@
 	img {
 		max-width: 280px;
 	}
-	
-	.text {
-		padding-top: 10px;
+}
+
+
+// Two column layout
+//---------------------
+
+.sixtyfourty-column {	
+  
+	.column-sixty {
+		max-width: 360px;
+		
+  	img {
+  		max-width: 340px;
+  	}
+	}
+  
+	.column-fourty {
+		max-width: 240px;
+		
+		img {
+  		max-width: 220px;
+		}
 	}
 }
 
@@ -73,6 +104,10 @@
 		max-width: 200px;
 	}
 	
+	.column-2 {
+  	max-width: 400px;
+	}
+	
 	.contents {
   	text-align: center;
 	}
@@ -81,8 +116,8 @@
 		max-width: 180px;
 	}
 	
-	.text {
-		padding-top: 10px;
+	.column-2 img {
+  	max-width: 380px;
 	}
 }
 
@@ -106,33 +141,63 @@
 //---------------------
 
 @media screen and(max-width: 460px) {
-  
-	.two-column {
+  .two-column,
+  .three-column,
+  .sixtyfourty-column {
   	
-		.column {
+  	.column,
+  	.column-2,
+  	.column-sixty,
+  	.column-fourty {
 			max-width: 100% !important;
-		}
-		
-		img {
-			max-width: 100% !important;
-		}
+  	}
+	
+  	.contents {
+    	text-align: center !important;
+  	}
+  }
+  
+	.two-column img {
+		max-width: 100% !important;
 	}
 	
-	.three-column {
+	.three-column img {
+		max-width: 50% !important;
+	}
+	
+	.sixtyfourty-column {
   	
-		.column {
-			max-width: 100% !important;
-		}
-		
-		img {
-			max-width: 50% !important;
+  	.column-sixty img {
+  		max-width: 100%;
+  	}
+    
+  	.column-fourty img {
+  		max-width: 50%;
 		}
 	}
 }
 @media screen and(min-width: 461px) and(max-width: 620px) {
   
-	.three-column .column {
-		max-width: 33% !important;
+  .sixtyfourty-column {
+  	
+  	.column-sixty {
+  		max-width: 60% !important;
+  	}
+  	
+  	.column-fourty {
+  		max-width: 40% !important;
+  	}
+	}
+  
+	.three-column {
+  	
+  	.column {
+  		max-width: 33% !important;
+  	}
+  	
+  	.column-2 {
+  		max-width: 66% !important;
+  	}
 	}
 	
 	.two-column .column {
