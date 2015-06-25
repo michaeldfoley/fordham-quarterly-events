@@ -2,6 +2,34 @@
 //  Scaffolding 
 //  ---------------------------------
 
+// Containers
+//---------------------
+
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+.webkit {
+	max-width: 600px;
+}
+
+.outer {
+	Margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+}
+
+.inner {
+	padding: 15px;
+}
+
+.contents {
+	width: 100%;
+}
+
 
 // Links
 //---------------------
