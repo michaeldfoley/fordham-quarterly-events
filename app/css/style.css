@@ -24,6 +24,12 @@ p {
 }
 
 /* line 8, ../scss/_scaffolding.scss */
+body,
+.wrapper {
+  background-color: #f9f9f9;
+}
+
+/* line 13, ../scss/_scaffolding.scss */
 .wrapper {
   width: 100%;
   table-layout: fixed;
@@ -31,64 +37,64 @@ p {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 15, ../scss/_scaffolding.scss */
+/* line 20, ../scss/_scaffolding.scss */
 .webkit {
   max-width: 600px;
 }
 
-/* line 19, ../scss/_scaffolding.scss */
+/* line 24, ../scss/_scaffolding.scss */
 .outer {
   Margin: 0 auto;
   width: 100%;
   max-width: 600px;
 }
 
-/* line 25, ../scss/_scaffolding.scss */
+/* line 30, ../scss/_scaffolding.scss */
 .inner {
   padding: 15px;
 }
 
-/* line 29, ../scss/_scaffolding.scss */
+/* line 34, ../scss/_scaffolding.scss */
 .contents {
   width: 100%;
 }
 
-/* line 37, ../scss/_scaffolding.scss */
+/* line 42, ../scss/_scaffolding.scss */
 a {
   text-decoration: none;
   color: #900028;
 }
 
-/* line 42, ../scss/_scaffolding.scss */
+/* line 47, ../scss/_scaffolding.scss */
 .textlink {
   color: #444444;
 }
 
-/* line 50, ../scss/_scaffolding.scss */
+/* line 55, ../scss/_scaffolding.scss */
 img {
   outline: none;
   text-decoration: none;
   -ms-interpolation-mode: bicubic;
   border: 0;
 }
-/* line 56, ../scss/_scaffolding.scss */
+/* line 61, ../scss/_scaffolding.scss */
 a img {
   border: 0;
 }
 
-/* line 61, ../scss/_scaffolding.scss */
+/* line 66, ../scss/_scaffolding.scss */
 .img_fix {
   display: block;
 }
 
-/* line 65, ../scss/_scaffolding.scss */
+/* line 70, ../scss/_scaffolding.scss */
 .full-width-image img {
   width: 100%;
   max-width: 600px;
   height: auto;
 }
 
-/* line 75, ../scss/_scaffolding.scss */
+/* line 80, ../scss/_scaffolding.scss */
 .contents {
   color: #444444;
   font-family: "Open Sans", Arial, sans-serif;
@@ -265,43 +271,48 @@ a img {
   }
 
   /* line 172, ../scss/_grid.scss */
+  .sixtyfourty-column .inner {
+    width: 460px !important;
+    max-width: 100% !important;
+  }
+  /* line 177, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty img {
     max-width: 100% !important;
   }
-  /* line 176, ../scss/_grid.scss */
+  /* line 181, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty img {
     max-width: 50% !important;
   }
 }
 @media screen and (min-width: 461px) and (max-width: 620px) {
-  /* line 185, ../scss/_grid.scss */
+  /* line 190, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty {
     max-width: 60% !important;
   }
-  /* line 189, ../scss/_grid.scss */
+  /* line 194, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty {
     max-width: 40% !important;
   }
 
-  /* line 196, ../scss/_grid.scss */
+  /* line 201, ../scss/_grid.scss */
   .three-column .column {
     max-width: 33% !important;
   }
-  /* line 200, ../scss/_grid.scss */
+  /* line 205, ../scss/_grid.scss */
   .three-column .column-2 {
     max-width: 66% !important;
   }
 
-  /* line 205, ../scss/_grid.scss */
+  /* line 210, ../scss/_grid.scss */
   .two-column .column {
     max-width: 50% !important;
   }
 
-  /* line 209, ../scss/_grid.scss */
+  /* line 214, ../scss/_grid.scss */
   .sidebar .main {
     max-width: 100% !important;
   }
-  /* line 212, ../scss/_grid.scss */
+  /* line 217, ../scss/_grid.scss */
   .sidebar .main .contents {
     text-align: center !important;
   }
