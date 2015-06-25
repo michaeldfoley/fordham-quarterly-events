@@ -2,7 +2,9 @@
 //  Events
 //  ---------------------------------
 
+
 // Titles
+//---------------------
 
 .title,
 .title-lg, 
@@ -43,7 +45,8 @@
 }
 
 
-// Meta data
+// Meta Data
+//---------------------
 
 .date,
 .meta,
@@ -58,4 +61,43 @@
 .meta,
 .location {
   Margin-bottom:10px;
+}
+
+
+// Events
+//---------------------
+
+.events {
+  Margin: 0;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  list-style: none;
+  
+  li {
+    Margin: 0;
+    Margin-bottom: 15px;
+    
+    &:last-child {
+      Madding-bottom:0;
+    }
+  }
+  
+  .more {
+    padding: 0;
+    font-size: floor($font-size-base * .9);
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  .event-header {
+    padding-bottom: 10px;
+    font-size: floor($font-size-base * .95);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    
+    a {
+      color: $text-color;
+    }
+  }
 }
