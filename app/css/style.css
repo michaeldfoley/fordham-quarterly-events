@@ -382,6 +382,44 @@ small {
   font-size: 85%;
 }
 
+/* line 5, ../scss/_btn.scss */
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #900028;
+  color: #ffffff;
+  border: 1px solid #5d001a;
+}
+
+/* line 16, ../scss/_btn.scss */
+.btn-sm {
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* line 24, ../scss/_btn.scss */
+.btn-lg {
+  font-size: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 31, ../scss/_btn.scss */
+.btn-secondary {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  color: #565656;
+}
+
 /* line 13, ../scss/_header.scss */
 .two-column .logo img,
 .three-column .logo img,
