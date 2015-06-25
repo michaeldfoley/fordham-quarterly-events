@@ -408,6 +408,80 @@ small {
   text-align: center;
 }
 
+/* line 11, ../scss/_events.scss */
+.title, .title a,
+.title-lg,
+.title-lg a,
+.title-sm,
+.title-sm a,
+.title-xs,
+.title-xs a {
+  display: block;
+}
+
+/* line 15, ../scss/_events.scss */
+.title-lg,
+.title-sm,
+.title-xs {
+  font-weight: 200;
+  Margin-bottom: 7px;
+}
+
+/* line 21, ../scss/_events.scss */
+.title-lg {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* line 25, ../scss/_events.scss */
+.title-sm {
+  font-size: 15px;
+}
+
+/* line 28, ../scss/_events.scss */
+.title-xs {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* line 32, ../scss/_events.scss */
+.title,
+.subtitle {
+  font-weight: normal;
+}
+
+/* line 36, ../scss/_events.scss */
+.title {
+  font-size: 18px;
+  Margin-bottom: 3px;
+  line-height: 24px;
+}
+
+/* line 41, ../scss/_events.scss */
+.subtitle {
+  color: #6a6a6a;
+}
+
+/* line 48, ../scss/_events.scss */
+.date,
+.meta,
+.location {
+  font-size: 13px;
+  line-height: 1.4;
+  Margin-bottom: 0;
+}
+
+/* line 55, ../scss/_events.scss */
+.date {
+  font-weight: bold;
+}
+
+/* line 58, ../scss/_events.scss */
+.meta,
+.location {
+  Margin-bottom: 10px;
+}
+
 /* line 5, ../scss/_utilities.scss */
 .nowrap {
   white-space: nowrap;
