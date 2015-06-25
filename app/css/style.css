@@ -407,3 +407,8 @@ small {
   line-height: 1.6;
   text-align: center;
 }
+
+/* line 5, ../scss/_utilities.scss */
+.nowrap {
+  white-space: nowrap;
+}
