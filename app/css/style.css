@@ -640,3 +640,8 @@ small {
 .nowrap {
   white-space: nowrap;
 }
+
+/* line 9, ../scss/_utilities.scss */
+.gutter {
+  height: 50px;
+}
