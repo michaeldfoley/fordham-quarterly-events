@@ -5,7 +5,11 @@
 
 .block {
   background: $content-background;
-  border:1px solid $base-border;
+  border: 1px solid $base-border;
+  
+  @media screen and(max-width: $reorder-layout) {
+    border: 0px !important;
+  }
 }
 
 

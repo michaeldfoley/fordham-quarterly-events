@@ -28,8 +28,15 @@ body,
 .wrapper {
   background-color: #f9f9f9;
 }
+@media screen and (max-width: 460px) {
+  /* line 8, ../scss/_scaffolding.scss */
+  body,
+  .wrapper {
+    background-color: #ffffff !important;
+  }
+}
 
-/* line 13, ../scss/_scaffolding.scss */
+/* line 17, ../scss/_scaffolding.scss */
 .wrapper {
   width: 100%;
   table-layout: fixed;
@@ -37,64 +44,64 @@ body,
   -ms-text-size-adjust: 100%;
 }
 
-/* line 20, ../scss/_scaffolding.scss */
+/* line 24, ../scss/_scaffolding.scss */
 .webkit {
   max-width: 600px;
 }
 
-/* line 24, ../scss/_scaffolding.scss */
+/* line 28, ../scss/_scaffolding.scss */
 .outer {
   Margin: 0 auto;
   width: 100%;
   max-width: 600px;
 }
 
-/* line 30, ../scss/_scaffolding.scss */
+/* line 34, ../scss/_scaffolding.scss */
 .inner {
   padding: 15px;
 }
 
-/* line 34, ../scss/_scaffolding.scss */
+/* line 38, ../scss/_scaffolding.scss */
 .contents {
   width: 100%;
 }
 
-/* line 42, ../scss/_scaffolding.scss */
+/* line 46, ../scss/_scaffolding.scss */
 a {
   text-decoration: none;
   color: #900028;
 }
 
-/* line 47, ../scss/_scaffolding.scss */
+/* line 51, ../scss/_scaffolding.scss */
 .textlink {
   color: #444444;
 }
 
-/* line 55, ../scss/_scaffolding.scss */
+/* line 59, ../scss/_scaffolding.scss */
 img {
   outline: none;
   text-decoration: none;
   -ms-interpolation-mode: bicubic;
   border: 0;
 }
-/* line 61, ../scss/_scaffolding.scss */
+/* line 65, ../scss/_scaffolding.scss */
 a img {
   border: 0;
 }
 
-/* line 66, ../scss/_scaffolding.scss */
+/* line 70, ../scss/_scaffolding.scss */
 .img_fix {
   display: block;
 }
 
-/* line 70, ../scss/_scaffolding.scss */
+/* line 74, ../scss/_scaffolding.scss */
 .full-width-image img {
   width: 100%;
   max-width: 600px;
   height: auto;
 }
 
-/* line 80, ../scss/_scaffolding.scss */
+/* line 84, ../scss/_scaffolding.scss */
 .contents {
   color: #444444;
   font-family: "Open Sans", Arial, sans-serif;
@@ -466,8 +473,14 @@ small {
   background: #ffffff;
   border: 1px solid #ececec;
 }
+@media screen and (max-width: 460px) {
+  /* line 6, ../scss/_blocks.scss */
+  .block {
+    border: 0px !important;
+  }
+}
 
-/* line 16, ../scss/_blocks.scss */
+/* line 20, ../scss/_blocks.scss */
 .color-block, .color-block a:not(.btn),
 .color-block .title,
 .color-block .title-lg,
@@ -477,51 +490,51 @@ small {
 .color-block td {
   color: #ffffff;
 }
-/* line 25, ../scss/_blocks.scss */
+/* line 29, ../scss/_blocks.scss */
 .color-block .date,
 .color-block .meta {
   color: #f2f2ef;
 }
-/* line 29, ../scss/_blocks.scss */
+/* line 33, ../scss/_blocks.scss */
 .color-block a {
   display: block;
 }
-/* line 32, ../scss/_blocks.scss */
+/* line 36, ../scss/_blocks.scss */
 .color-block .btn {
   display: inline-block;
 }
 
-/* line 37, ../scss/_blocks.scss */
+/* line 41, ../scss/_blocks.scss */
 .network {
   background-color: #707579;
 }
 
-/* line 40, ../scss/_blocks.scss */
+/* line 44, ../scss/_blocks.scss */
 .celebrate {
   background-color: #900028;
 }
 
-/* line 43, ../scss/_blocks.scss */
+/* line 47, ../scss/_blocks.scss */
 .learn {
   background-color: #44687d;
 }
 
-/* line 46, ../scss/_blocks.scss */
+/* line 50, ../scss/_blocks.scss */
 .cheer {
   background-color: #6A6550;
 }
 
-/* line 49, ../scss/_blocks.scss */
+/* line 53, ../scss/_blocks.scss */
 .reflect {
   background-color: #5B797E;
 }
 
-/* line 52, ../scss/_blocks.scss */
+/* line 56, ../scss/_blocks.scss */
 .experience {
   background-color: #836e41;
 }
 
-/* line 55, ../scss/_blocks.scss */
+/* line 59, ../scss/_blocks.scss */
 .wildcard {
   background-color: #5b6f7b;
 }

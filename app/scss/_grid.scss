@@ -142,7 +142,7 @@
 // Media Queries
 //---------------------
 
-@media screen and(max-width: 460px) {
+@media screen and(max-width: $reorder-layout) {
   .two-column,
   .three-column,
   .sixtyfourty-column {
@@ -183,7 +183,7 @@
 		}
 	}
 }
-@media screen and(min-width: 461px) and(max-width: 620px) {
+@media screen and(min-width: $reorder-layout + 1) and(max-width: 620px) {
   
   .sixtyfourty-column {
   	

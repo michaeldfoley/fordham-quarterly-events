@@ -8,6 +8,10 @@
 body,
 .wrapper {
   background-color: $base-background;
+  
+  @media screen and(max-width: $reorder-layout) {
+    background-color: $content-background !important;
+  }
 }
 
 .wrapper {
