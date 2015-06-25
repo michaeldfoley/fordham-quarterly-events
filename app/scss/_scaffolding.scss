@@ -5,6 +5,11 @@
 // Containers
 //---------------------
 
+body,
+.wrapper {
+  background-color: $base-background;
+}
+
 .wrapper {
 	width: 100%;
 	table-layout: fixed;
