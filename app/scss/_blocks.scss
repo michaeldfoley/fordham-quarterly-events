@@ -1,0 +1,57 @@
+// 
+//  Content blocks
+//  ---------------------------------
+
+
+.block {
+  background: $content-background;
+  border:1px solid $base-border;
+}
+
+
+// Color Blocks
+//---------------------
+
+.color-block {
+  &, a:not(.btn),
+  .title, 
+  .title-lg, 
+  .title-sm, 
+  .subtitle,
+  .textlink, 
+  td {
+    color:#ffffff;
+  }
+  .date,
+  .meta {
+    color:#f2f2ef
+  }
+  a {
+    display: block;
+  }
+  .btn {
+    display: inline-block;
+  }
+}
+
+.network {
+  background-color:#707579;
+}
+.celebrate {
+  background-color:#900028;
+}
+.learn {
+  background-color:#44687d;
+}
+.cheer {
+  background-color:#6A6550;
+}
+.reflect {
+  background-color:#5B797E;
+}
+.experience {
+  background-color:#836e41;
+}
+.wildcard {
+  background-color:#5b6f7b;
+}

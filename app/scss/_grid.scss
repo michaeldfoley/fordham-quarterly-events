@@ -75,7 +75,8 @@
 
 .sixtyfourty-column {	
   
-	.column-sixty {
+	.column-sixty,
+  .column-sixty .inner-paddless img {
 		max-width: 360px;
 		
   	img {
@@ -83,7 +84,8 @@
   	}
 	}
   
-	.column-fourty {
+	.column-fourty,
+	.column-fourty .inner-paddless img {
 		max-width: 240px;
 		
 		img {
@@ -168,11 +170,11 @@
 	.sixtyfourty-column {
   	
   	.column-sixty img {
-  		max-width: 100%;
+  		max-width: 100% !important;
   	}
     
   	.column-fourty img {
-  		max-width: 50%;
+  		max-width: 50% !important;
 		}
 	}
 }
