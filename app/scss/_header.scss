@@ -1,0 +1,41 @@
+// 
+//  Header
+//  ---------------------------------
+
+
+// Logo
+//---------------------
+
+.two-column,
+.three-column,
+.sixtyfourty-column {
+	
+	.logo img {
+		max-width: 165px !important;
+	}
+}
+
+
+// Tagline
+//---------------------
+
+.header-tagline {
+  display: inline-block;
+  padding-top: 12px;
+  font-size:16px;
+  
+  a, & {
+    color: $meta-color;
+  }
+}
+
+
+// Description
+//---------------------
+
+.header-description {
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  text-align: center;
+}
