@@ -1,0 +1,20 @@
+// 
+//  Footer
+//  ---------------------------------
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-size: $font-size-base * .75;
+  text-align: center;
+  color: $footer-color;
+  
+  a {
+    color: $footer-color;
+  }
+  .contact {
+    font-weight: bold;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+}

@@ -499,6 +499,25 @@ small {
   padding-bottom: 20px;
 }
 
+/* line 5, ../scss/_footer.scss */
+.footer {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-size: 11.25px;
+  text-align: center;
+  color: #6a6a6a;
+}
+/* line 12, ../scss/_footer.scss */
+.footer a {
+  color: #6a6a6a;
+}
+/* line 15, ../scss/_footer.scss */
+.footer .contact {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* line 6, ../scss/_blocks.scss */
 .block {
   background: #ffffff;

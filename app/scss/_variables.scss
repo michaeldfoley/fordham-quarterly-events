@@ -35,7 +35,7 @@ $btn-secondary-color: lighten($text-color, 7%);
 // Footer colors
 //---------------------
 
-$footer-color: $text-color;
+$footer-color: lighten($text-color, 15%);
 $footer-nav-background: #5b6f7b;
 $footer-nav-color: #ffffff;
 $footer-nav-link-color: $footer-nav-color;
